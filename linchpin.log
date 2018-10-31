@@ -147,3 +147,51 @@ Target              	Run ID	uHash	Exit Code
 -------------------------------------------------
 complex-inventory   	    10	f80fa1	        0
 
+DEBUG 2018-10-31 13:29:13,261 Processing target: complex-inventory
+DEBUG 2018-10-31 13:29:13,265 rundb_id: 1
+DEBUG 2018-10-31 13:29:13,265 uhash: 1d47f4
+DEBUG 2018-10-31 13:29:13,311 calling: preup
+DEBUG 2018-10-31 13:29:13,311 hook preup initiated
+DEBUG 2018-10-31 13:30:25,455 STATE - Action 'up' on Target 'complex-inventory' is complete
+DEBUG 2018-10-31 13:30:25,455 hook postinv initiated
+DEBUG 2018-10-31 13:36:54,778 hook postup initiated
+DEBUG 2018-10-31 13:36:54,778 STATE - 
+ID: 1
+Action: up
+
+Target              	Run ID	uHash	Exit Code 
+-------------------------------------------------
+complex-inventory   	     1	1d47f4	        0
+
+DEBUG 2018-10-31 13:37:06,635 Processing target: complex-inventory
+DEBUG 2018-10-31 13:37:06,646 using data from run_id: None
+DEBUG 2018-10-31 13:37:06,646 rundb_id: 2
+DEBUG 2018-10-31 13:37:06,646 uhash: 1d47f4
+DEBUG 2018-10-31 13:37:06,709 calling: predestroy
+DEBUG 2018-10-31 13:37:06,709 hook predestroy initiated
+DEBUG 2018-10-31 13:37:29,316 STATE - Action 'destroy' on Target 'complex-inventory' is complete
+DEBUG 2018-10-31 13:37:29,335 hook postdestroy initiated
+DEBUG 2018-10-31 13:37:29,336 STATE - 
+ID: 2
+Action: destroy
+
+Target              	Run ID	uHash	Exit Code 
+-------------------------------------------------
+complex-inventory   	     2	1d47f4	        0
+
+DEBUG 2018-10-31 13:40:04,513 Processing target: complex-inventory
+DEBUG 2018-10-31 13:40:04,528 rundb_id: 3
+DEBUG 2018-10-31 13:40:04,528 uhash: 4cbe25
+DEBUG 2018-10-31 13:40:04,582 calling: preup
+DEBUG 2018-10-31 13:40:04,582 hook preup initiated
+DEBUG 2018-10-31 13:41:47,511 STATE - Action 'up' on Target 'complex-inventory' is complete
+DEBUG 2018-10-31 13:41:47,511 hook postinv initiated
+DEBUG 2018-10-31 13:44:52,887 hook postup initiated
+DEBUG 2018-10-31 13:44:52,887 STATE - 
+ID: 3
+Action: up
+
+Target              	Run ID	uHash	Exit Code 
+-------------------------------------------------
+complex-inventory   	     3	4cbe25	        0
+

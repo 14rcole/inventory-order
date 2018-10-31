@@ -51,11 +51,9 @@ complex-inventory:
             ansible_python_interpreter: /usr/bin/python3
             ansible_user: root
             ansible_ssh_common_args: -o StrictHostKeyChecking=no
-        dummy:
-          children:
-            - dummy-layout
-            - dummy-master
-          vars:
-            ansible_ssh_common_args: -o StrictHostKeyChecking=no -4
-            
-        
+#        dummy:
+#          children:
+#            - dummy-layout
+#            - dummy-master
+#          vars:
+#            ansible_ssh_common_args: -o StrictHostKeyChecking=no -4
