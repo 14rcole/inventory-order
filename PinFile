@@ -27,6 +27,12 @@ complex-inventory:
         credentials:
           filename: aws.key
           profile: default
+      - resource_group_name: dummy-two
+        resource_group_type: dummy
+        resource_definitions:
+          - name: "{{ distro | default('') }}more"
+            role: "dummy_node"
+            count: 1
   layout:
     inventory_layout:
       vars:
