@@ -1,0 +1,23 @@
+[all:vars]
+ansible_ssh_common_args = -o StrictHostKeyChecking=no
+ansible_python_interpreter = /usr/bin/python3
+ansible_user = root
+
+[aws-layout]
+
+[dummy-master]
+test-f80fa1-2.example.net hostname=test-f80fa1-2.example.net
+ec2-54-145-105-33.compute-1.amazonaws.com hostname=ec2-54-145-105-33.compute-1.amazonaws.com
+
+[dummy-layout]
+test-f80fa1-0.example.net hostname=test-f80fa1-0.example.net
+test-f80fa1-1.example.net hostname=test-f80fa1-1.example.net
+test-f80fa1-2.example.net hostname=test-f80fa1-2.example.net
+ec2-54-145-105-33.compute-1.amazonaws.com hostname=ec2-54-145-105-33.compute-1.amazonaws.com
+
+[all]
+test-f80fa1-0.example.net hostname=test-f80fa1-0.example.net
+test-f80fa1-1.example.net hostname=test-f80fa1-1.example.net
+test-f80fa1-2.example.net hostname=test-f80fa1-2.example.net
+ec2-54-145-105-33.compute-1.amazonaws.com hostname=ec2-54-145-105-33.compute-1.amazonaws.com
+

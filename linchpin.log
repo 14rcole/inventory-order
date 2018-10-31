@@ -1,0 +1,149 @@
+DEBUG 2018-10-31 09:29:22,386 Processing target: complex-inventory
+DEBUG 2018-10-31 09:29:22,395 rundb_id: 1
+DEBUG 2018-10-31 09:29:22,395 uhash: 1b097a
+DEBUG 2018-10-31 09:29:22,447 calling: preup
+DEBUG 2018-10-31 09:29:22,447 hook preup initiated
+DEBUG 2018-10-31 09:30:42,409 STATE - Action 'up' on Target 'complex-inventory' is complete
+DEBUG 2018-10-31 09:30:42,409 hook postinv initiated
+DEBUG 2018-10-31 09:30:42,430 hook postup initiated
+DEBUG 2018-10-31 09:30:42,430 STATE - 
+ID: 1
+Action: up
+
+Target              	Run ID	uHash	Exit Code 
+-------------------------------------------------
+complex-inventory   	     1	1b097a	        0
+
+DEBUG 2018-10-31 09:36:25,756 Processing target: complex-inventory
+DEBUG 2018-10-31 09:36:25,761 using data from run_id: None
+DEBUG 2018-10-31 09:36:25,762 rundb_id: 2
+DEBUG 2018-10-31 09:36:25,762 uhash: 1b097a
+DEBUG 2018-10-31 09:36:25,830 calling: predestroy
+DEBUG 2018-10-31 09:36:25,830 hook predestroy initiated
+DEBUG 2018-10-31 09:36:48,538 STATE - Action 'destroy' on Target 'complex-inventory' is complete
+DEBUG 2018-10-31 09:36:48,558 hook postdestroy initiated
+DEBUG 2018-10-31 09:36:48,558 STATE - 
+ID: 2
+Action: destroy
+
+Target              	Run ID	uHash	Exit Code 
+-------------------------------------------------
+complex-inventory   	     2	1b097a	        0
+
+DEBUG 2018-10-31 09:53:42,718 Processing target: complex-inventory
+DEBUG 2018-10-31 09:53:42,724 rundb_id: 3
+DEBUG 2018-10-31 09:53:42,724 uhash: 71c61c
+DEBUG 2018-10-31 09:53:42,782 calling: preup
+DEBUG 2018-10-31 09:53:42,782 hook preup initiated
+DEBUG 2018-10-31 09:55:00,418 STATE - Action 'up' on Target 'complex-inventory' is complete
+DEBUG 2018-10-31 09:55:00,418 hook postinv initiated
+DEBUG 2018-10-31 09:55:00,465 hook postup initiated
+DEBUG 2018-10-31 09:55:00,465 STATE - 
+ID: 3
+Action: up
+
+Target              	Run ID	uHash	Exit Code 
+-------------------------------------------------
+complex-inventory   	     3	71c61c	        0
+
+DEBUG 2018-10-31 09:56:23,672 Processing target: complex-inventory
+DEBUG 2018-10-31 09:56:23,682 using data from run_id: None
+DEBUG 2018-10-31 09:56:23,682 rundb_id: 4
+DEBUG 2018-10-31 09:56:23,682 uhash: 71c61c
+DEBUG 2018-10-31 09:56:23,736 calling: predestroy
+DEBUG 2018-10-31 09:56:23,736 hook predestroy initiated
+DEBUG 2018-10-31 09:58:13,004 STATE - Action 'destroy' on Target 'complex-inventory' is complete
+DEBUG 2018-10-31 09:58:13,023 hook postdestroy initiated
+DEBUG 2018-10-31 09:58:13,023 STATE - 
+ID: 4
+Action: destroy
+
+Target              	Run ID	uHash	Exit Code 
+-------------------------------------------------
+complex-inventory   	     4	71c61c	        0
+
+DEBUG 2018-10-31 10:04:17,593 Processing target: complex-inventory
+DEBUG 2018-10-31 10:04:17,599 rundb_id: 5
+DEBUG 2018-10-31 10:04:17,600 uhash: 6f3435
+DEBUG 2018-10-31 10:04:17,658 calling: preup
+DEBUG 2018-10-31 10:04:17,658 hook preup initiated
+DEBUG 2018-10-31 10:04:56,935 STATE - Action 'up' on Target 'complex-inventory' is complete
+DEBUG 2018-10-31 10:04:56,935 hook postinv initiated
+DEBUG 2018-10-31 10:04:56,995 hook postup initiated
+DEBUG 2018-10-31 10:04:56,995 STATE - 
+ID: 5
+Action: up
+
+Target              	Run ID	uHash	Exit Code 
+-------------------------------------------------
+complex-inventory   	     5	6f3435	        0
+
+DEBUG 2018-10-31 10:09:50,512 Processing target: complex-inventory
+DEBUG 2018-10-31 10:09:50,519 using data from run_id: None
+DEBUG 2018-10-31 10:09:50,519 rundb_id: 6
+DEBUG 2018-10-31 10:09:50,519 uhash: 6f3435
+DEBUG 2018-10-31 10:09:50,537 STATE - playbook 'aGws' not found in path: ['/home/ryan/Development/Python/linchpin/linchpin/provision', u'/home/ryan/.config/linchpin/linchpin-x']
+DEBUG 2018-10-31 10:10:48,490 Processing target: complex-inventory
+DEBUG 2018-10-31 10:10:48,505 using data from run_id: None
+DEBUG 2018-10-31 10:10:48,505 rundb_id: 7
+DEBUG 2018-10-31 10:10:48,505 uhash: 6f3435
+DEBUG 2018-10-31 10:10:48,564 calling: predestroy
+DEBUG 2018-10-31 10:10:48,564 hook predestroy initiated
+DEBUG 2018-10-31 10:11:46,129 STATE - Action 'destroy' on Target 'complex-inventory' is complete
+DEBUG 2018-10-31 10:11:46,167 hook postdestroy initiated
+DEBUG 2018-10-31 10:11:46,168 STATE - 
+ID: 6
+Action: destroy
+
+Target              	Run ID	uHash	Exit Code 
+-------------------------------------------------
+complex-inventory   	     7	6f3435	        0
+
+DEBUG 2018-10-31 10:19:18,140 Processing target: complex-inventory
+DEBUG 2018-10-31 10:19:18,152 rundb_id: 8
+DEBUG 2018-10-31 10:19:18,152 uhash: dc829e
+DEBUG 2018-10-31 10:19:18,212 calling: preup
+DEBUG 2018-10-31 10:19:18,212 hook preup initiated
+DEBUG 2018-10-31 10:21:02,022 STATE - Action 'up' on Target 'complex-inventory' is complete
+DEBUG 2018-10-31 10:21:02,022 hook postinv initiated
+DEBUG 2018-10-31 10:21:02,071 hook postup initiated
+DEBUG 2018-10-31 10:21:02,072 STATE - 
+ID: 7
+Action: up
+
+Target              	Run ID	uHash	Exit Code 
+-------------------------------------------------
+complex-inventory   	     8	dc829e	        0
+
+DEBUG 2018-10-31 11:43:35,120 Processing target: complex-inventory
+DEBUG 2018-10-31 11:43:35,135 rundb_id: 9
+DEBUG 2018-10-31 11:43:35,135 uhash: f80fa1
+DEBUG 2018-10-31 11:43:35,203 calling: preup
+DEBUG 2018-10-31 11:43:35,203 hook preup initiated
+DEBUG 2018-10-31 11:45:37,805 STATE - Action 'up' on Target 'complex-inventory' is complete
+DEBUG 2018-10-31 11:45:37,806 hook postinv initiated
+DEBUG 2018-10-31 11:45:37,845 hook postup initiated
+DEBUG 2018-10-31 11:45:37,845 STATE - 
+ID: 8
+Action: up
+
+Target              	Run ID	uHash	Exit Code 
+-------------------------------------------------
+complex-inventory   	     9	f80fa1	        0
+
+DEBUG 2018-10-31 11:46:20,693 Processing target: complex-inventory
+DEBUG 2018-10-31 11:46:20,704 using data from run_id: None
+DEBUG 2018-10-31 11:46:20,704 rundb_id: 10
+DEBUG 2018-10-31 11:46:20,704 uhash: f80fa1
+DEBUG 2018-10-31 11:46:20,766 calling: predestroy
+DEBUG 2018-10-31 11:46:20,766 hook predestroy initiated
+DEBUG 2018-10-31 11:49:58,069 STATE - Action 'destroy' on Target 'complex-inventory' is complete
+DEBUG 2018-10-31 11:49:58,114 hook postdestroy initiated
+DEBUG 2018-10-31 11:49:58,114 STATE - 
+ID: 9
+Action: destroy
+
+Target              	Run ID	uHash	Exit Code 
+-------------------------------------------------
+complex-inventory   	    10	f80fa1	        0
+
